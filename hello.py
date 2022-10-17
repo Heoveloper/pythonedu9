@@ -4,3 +4,4 @@
 '''
 
 print('hello world~!')
+name = input("이름은? ")
