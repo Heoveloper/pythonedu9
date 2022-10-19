@@ -11,6 +11,12 @@ f.write('hello~ world~ 3\n')
 f.close()
 
 # 읽기모드
+f = open('d:\Heo\kh\python\sample.txt', 'r')
+for line in f.readlines() :
+    print(line.strip())
+f.close()
+
+# 읽기모드
 f = open('d:\Heo\kh\python\member.csv', 'r')
 for line in f.readlines() :
     print(line.strip())

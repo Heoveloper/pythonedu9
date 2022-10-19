@@ -1,0 +1,5 @@
+blackboard: 칠판
+classroom: 교실
+student: 1반 학생
+student2: 2반 학생
+teacher: 선생님
