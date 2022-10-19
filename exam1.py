@@ -114,9 +114,6 @@ for line in sdasc :
     f.write('{}: {}\n'.format(line[0].strip(), line[1].strip()))
 f.close()
 
-fromkey = dictionary.fromkeys('student')
-print(int(len(fromkey)) + 1)
-
 # 파일에서 읽어오기
 f = open('d:\Heo\kh\python\dictionary.txt', 'r', encoding='UTF-8')
 if f.readable() :
